@@ -1,0 +1,10 @@
+.categories-box{
+    margin: 2rem;
+    max-width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.category{
+    margin:.5rem;
+}

@@ -1,0 +1,130 @@
+.anime-box{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 1rem;
+}
+.anime-image img{
+    width: 100%;
+}
+.anime-image{
+    width: 100%;
+    height: fit-content;
+    padding: 2rem;
+}
+.anime-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.anime-body{
+    display: flex;
+    flex-direction: column;
+}
+.anime-description{
+    padding: 1rem;
+    text-align: center;
+}
+.anime-title{
+    border-top: .1rem solid #707070;
+    border-bottom: .1rem solid #707070;
+}
+
+.anime-moreInfo{
+    text-align: center;
+}
+
+.anime-moreInfo ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+}
+
+.anime-moreInfo li{
+    margin: .5rem;
+    background-color: #DCE922;
+    padding: .5rem;
+    border-radius: .5rem;
+    color: #3B3636;
+}
+
+.state{
+    max-width: 12rem;
+    min-width: 12rem;
+    max-height: 7rem;
+    min-height: 7rem;
+}
+
+.options{
+    align-self: end;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 435px) {
+    .anime-body{
+        max-width: 50vw;
+    }
+    .anime-image{
+        text-align: center;
+        width: 40vw;
+    }
+    .anime-card{
+        justify-content: space-between;
+    }
+    .options{
+        align-self: start;
+        display: flex;
+        justify-content: end;
+        margin: 1rem;
+    }
+    .state{
+        max-width: 8rem;
+        min-width: 8rem;
+        max-height: 5rem;
+        min-height: 5rem;
+        font-size: 1.5rem;
+    }
+    .anime-card-main{
+        height: 60vw;
+    }
+  }
+@media only screen and (min-width: 600px) {
+    .anime-body{
+        font-size: 1.5rem;
+    }
+    .state{
+        max-width: 12rem;
+        min-width: 12rem;
+        max-height: 7rem;
+        min-height: 7rem;
+        font-size: 2rem;
+    }
+    .options{
+        align-self: start;
+        display: flex;
+        justify-content: end;
+        margin: 0;
+    }
+  }
+@media only screen and (min-width: 1000px) {
+    .anime-body{
+        font-size: 2rem;
+    }
+    .anime-image{
+        text-align: center;
+        width: 30vw;
+    }
+    .anime-card-main{
+        height: 45vw;
+    }
+}
+@media only screen and (min-width: 1400px) {
+    .anime-body{
+        font-size: 2rem;
+    }
+    .anime-card-main{
+        height: 45vw;
+    }
+  }

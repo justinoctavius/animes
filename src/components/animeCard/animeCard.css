@@ -1,0 +1,32 @@
+.anime-card{
+    max-height: 50rem;
+    min-height: 30rem;
+    display: grid;
+    grid-template-rows: 25rem 1fr;
+}
+.anime-body{
+    display: flex;
+}
+.box{
+    position: relative;
+    max-width: 27rem;
+    min-width: 27rem;
+}
+.anime-title{
+    width: 100%;
+    text-align: center;
+}
+.anime-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.anime-info{
+    display: flex;
+    justify-content: space-between;
+}
+.rank{
+    position: absolute;
+    z-index: 10;
+}

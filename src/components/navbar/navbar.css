@@ -1,0 +1,16 @@
+.navbar{
+    min-height: 7rem;
+}
+.border{
+    border: 0.1rem #707070 solid;
+}
+.border-bottom{
+    border-bottom: 0.1rem #707070 solid;
+}
+.border-top{
+    border-top: 0.1rem #707070 solid;
+}
+.navbar-toggler{
+    min-width: 4rem;
+    min-height: 4rem;
+}

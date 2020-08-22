@@ -1,0 +1,12 @@
+.iframe{
+    border: 0px none; 
+    margin-left: -35rem; 
+    height: 90rem; 
+    margin-top: -33.3rem; 
+    width: 126.3rem;
+}
+.iframe-box{
+    overflow: hidden; 
+    margin: 15px auto; 
+    max-width: 80rem;
+}
