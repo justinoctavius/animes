@@ -13,7 +13,7 @@ function Watch() {
                     src={`https://myanimelist.net/anime/${id}/${title}/episode/${episode}`} 
                     className="iframe"
                     title={title}
-                    allowFullScreen>
+                    >
             </iframe>
             </div>
         </div>
